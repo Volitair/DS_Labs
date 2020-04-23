@@ -1,0 +1,90 @@
+#c1 {
+	width: 900px;
+	height: 900px;
+	border: 3px solid black;
+	background-color: #E7E7E7;
+	position: absolute;
+	/*
+		margin: 40px;
+	background-image: url(setka.png);
+	z-index: 0;
+	position: absolute;
+	*/
+}
+
+#c2 {
+	width: 900px;
+	height: 900px;
+	border: 3px solid black;
+	background-color: #E7E7E7;
+	position: absolute;
+}
+
+#c3 {
+	width: 900px;
+	height: 900px;
+	border: 3px solid black;
+	background-color: #E7E7E7;
+	position: absolute;
+}
+
+#c4 {
+	width: 900px;
+	height: 900px;
+	border: 3px solid black;
+	background-color: #E7E7E7;
+	position: absolute;
+}
+
+#c5 {
+	width: 900px;
+	height: 900px;
+	border: 3px solid black;
+	background-color: #E7E7E7;
+	position: absolute;
+}
+
+#underGraph {
+	position: relative;
+	padding-top: 906px;
+	z-index: 100;
+	width: 900px;
+}
+
+#ways {
+	width: 600px;
+	word-wrap: break-word;
+}
+
+#components {
+	width: 600px;
+	word-wrap: break-word;
+}
+
+#spanComponents {
+	white-space: nowrap;
+}
+
+#spanWays {
+	white-space: nowrap;
+}
+
+/*
+#c2 {
+	width: 400px;
+	height: 200px;
+	z-index: 10;
+	border: 3px solid black;
+	margin: 40px;
+	position: absolute;
+}
+*/
+
+#right {
+	position: absolute;
+	height: 900px;
+	width: 600px;
+	margin: 0px;
+	margin-left: 920px;
+	/*background-color: rgb(255, 255, 255);*/
+}
