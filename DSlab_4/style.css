@@ -4,12 +4,6 @@
 	border: 3px solid black;
 	background-color: #E7E7E7;
 	position: absolute;
-	/*
-		margin: 40px;
-	background-image: url(setka.png);
-	z-index: 0;
-	position: absolute;
-	*/
 }
 
 #c2 {
@@ -51,6 +45,13 @@
 	width: 900px;
 }
 
+#underTree {
+	position: relative;
+	padding-top: 906px;
+	z-index: 100;
+	width: 900px;
+}
+
 #ways {
 	width: 600px;
 	word-wrap: break-word;
@@ -69,22 +70,23 @@
 	white-space: nowrap;
 }
 
-/*
-#c2 {
-	width: 400px;
-	height: 200px;
-	z-index: 10;
-	border: 3px solid black;
-	margin: 40px;
-	position: absolute;
-}
-*/
-
-#right {
-	position: absolute;
+#text {
+	position: relative;
 	height: 900px;
 	width: 600px;
 	margin: 0px;
+}
+
+#graph {
+	position: absolute;
+	height: 950px;
+	width: 900px;
+	margin: 0px;
+}
+
+#tree {
+	position: relative;
+	width: 900px;
+	margin: 0px;
 	margin-left: 920px;
-	/*background-color: rgb(255, 255, 255);*/
 }
