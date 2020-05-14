@@ -1258,14 +1258,10 @@ function onClickButDirNotDir() {
     canvas1.style.display = 'block';
     canvas2.style.display = 'none';
     canvas3.style.display = 'none';
-    canvas4.style.display = 'none';
-    canvas5.style.display = 'none';
   } else {
     canvas1.style.display = 'none';
     canvas2.style.display = 'block';
     canvas3.style.display = 'none';
-    canvas4.style.display = 'none';
-    canvas5.style.display = 'none';
   }
 }
 
@@ -1273,22 +1269,14 @@ function onClickCondensationGraph() {
   canvas1.style.display = 'none';
   canvas2.style.display = 'none';
   canvas3.style.display = 'block';
-  canvas4.style.display = 'none';
-  canvas5.style.display = 'none';
 }
 
 function onClickButTreeDFS() {
   if (canvas4.style.display === 'block') {
-    canvas1.style.display = 'none';
-    canvas2.style.display = 'none';
-    canvas3.style.display = 'none';
     canvas4.style.display = 'none';
     canvas5.style.display = 'block';
     halt(ctx5)
   } else {
-    canvas1.style.display = 'none';
-    canvas2.style.display = 'none';
-    canvas3.style.display = 'none';
     canvas4.style.display = 'block';
     canvas5.style.display = 'none';
     drawGraphWithDFSNumeration(ctx4)
@@ -1318,4 +1306,3 @@ blockTreeDFSMatrix.innerHTML += 'Matrix DFS tree:';
 blockTreeDFSMatrix.innerHTML += '<br>';
 
 printMatrix(treeDFSMatrix,blockTreeDFSMatrix)
-
