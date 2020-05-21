@@ -1120,7 +1120,6 @@ const halt = (ctx, delay) => {
       butTree.disabled = false;
       return;
     }
-    console.log(item);
     counter++;
     item.draw(ctx, 'red', 2);
   };
