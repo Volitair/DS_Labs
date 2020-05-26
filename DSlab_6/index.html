@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js" defer></script>
+</head>
+<body>
+    <div width ="1000">
+        <div id = 'graph'>
+        
+            <canvas id="c1" width="1000" height="1000"></canvas>
+            <canvas id="c2" width="1000" height="1000"></canvas>
+            <canvas id="c3" width="1000" height="1000"></canvas>
+            <canvas id="weights" width="1000" height="1000"></canvas>
+            <!---->
+    
+            <div id = 'underGraph'>
+                <center>
+                    <button id = 'butDirNotDir' onclick = "onClickButDirNotDir()">
+                        Directed Graph / Not directed Graph
+                    </button>
+                </center>
+                <center>
+                    <button id = 'butCondensationGraph' onclick = "onClickCondensationGraph()">
+                        Condensation of the Graph
+                    </button>
+                </center>  
+            </div>    
+        </div>
+        <div id = 'tree'>
+            <canvas id="c4" width="1000" height="1000"></canvas>
+            <canvas id="c5" width="1000" height="1000"></canvas>
+            <canvas id="weights2" width="1000" height="1000"></canvas>
+            <div id = 'underTree'>
+                <center>
+                    <button id = 'butDijkstra' onclick = "onClickButDijkstra()">
+                        Dijkstra’s algorithm
+                    </button>
+                </center>
+            </div>
+        </div>
+        <div id = 'text'>
+            <p style = 'margin-left: 5; margin-top: 2' id = 'term'></p>
+            <p style = 'margin-left: 5; margin-top: 2' id = 'matrixA'></p>
+            <p style = 'margin-left: 5; margin-top: 2' id = 'matrixA2'></p>
+            <p style = 'margin-left: 5; margin-top: 2' id = 'matrixA3'></p>
+            <p style = 'margin-left: 5; margin-top: 2' id = 'ways'></p>
+            <p style = 'margin-left: 5; margin-top: 2' id = 'matrixReachability'></p>
+            <p style = 'margin-left: 5; margin-top: 2' id = 'matrixStronglyConnected'></p>
+            <p style = 'margin-left: 5; margin-top: 2' id = 'components'></p>
+            <p style = 'margin-left: 5; margin-top: 2' id = 'matrixComponents'></p>
+            <p style = 'margin-left: 5; margin-top: 2' id = 'treeDFSMatrix'></p>
+            <p style = 'margin-left: 5; margin-top: 2' id = 'matrixDFSNumeration'></p>
+        </div>    
+    </div>
+</body>
+</html>
